@@ -1,6 +1,6 @@
-# Javascript, Typescript, and ESLint Checklist
+# Javascript and ESLint Checklist
 
-Best practices for Javascript, Typescript, and ESLint.
+Best practices for Javascript and ESLint.
 
 ## Javascript
 
@@ -26,21 +26,11 @@ ES6 includes many of the lodash functions. Use the built-in function rather than
 
 ### JS-07: Avoid console.logs
 
-### JS-08: Use JSDoc (TSDoc) comments appropriately.
-
-When a comment starts with '/**', it will be processed by JSDoc (or TSDoc). Please ensure those comments are appropriate for inclusion.
-
 Get rid of console.log.
 
-## Typescript
+### JS-08: Use JSDoc comments appropriately.
 
-### TS-01: Avoid any.
-
-Can we change the type `any` to something more specific?
-
-### TS-O2: Use React.FC().
-
-Use the React.FC type parameterized with the props to express the type of a React component?
+When a comment starts with '/**', it will be processed by JSDoc (or TSDoc). Please ensure those comments are appropriate for inclusion.
 
 ## ESLint
 
