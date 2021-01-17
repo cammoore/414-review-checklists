@@ -8,7 +8,7 @@ Best practices for unit, integration, and acceptance testing.
 
 Collections are defined in the api/ directory. They are typically defined as a single Class instance that extend a base class such as "BaseCollection".
 
-For each collection, there should be associated unit tests that check that all of the fundamental operations on the Collection operate correctly for reasonable input values.
+For each collection, there should be associated unit tests that check that all the fundamental operations on the Collection operate correctly for reasonable input values.
 
 If an operation on the Collection has a relationship to another Collection, make sure to test these relationships. (In other words, if an operation implicitly creates another document in another collection, or requires the existance of another document in another collection, then test that these relationships are correct.)
 

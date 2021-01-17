@@ -30,7 +30,7 @@ Get rid of console.log.
 
 ### JS-08: Use JSDoc comments appropriately.
 
-When a comment starts with '/**', it will be processed by JSDoc (or TSDoc). Please ensure those comments are appropriate for inclusion.
+When a comment starts with '/**', it will be processed by JSDoc. Please ensure those comments are appropriate for inclusion.
 
 ## ESLint
 
