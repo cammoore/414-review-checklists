@@ -92,3 +92,49 @@ import AdminAnalyticsNewsletterWidget from '../../components/admin/analytics/new
 ```
 
 In other words, we name the imported component using the name associated with the file, and not the "containerized" name.
+
+### REACT-09: Prefer functions vs. classes for stateless components.
+
+```jsx
+class AdminHomeBanner extends React.Component {
+  render() {
+    const gridStyle = { height: '500px' };
+    return (
+        <div className="adminhome-banner">
+          <Grid container verticalAlign="middle" textAlign="center" style={gridStyle}>
+            <Grid.Row>
+              <Grid.Column>
+                <div className="welcome-text"><p>Hello there</p></div>
+                <Header as="h1" inverted>
+                  Manage your site
+                </Header>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </div>
+    );
+  }
+}
+```
+
+Should be
+
+```jsx
+const AdminHomeBanner = () => {
+  const gridStyle = { height: '500px' };
+  return (
+      <div className="adminhome-banner">
+        <Grid container verticalAlign="middle" textAlign="center" style={gridStyle}>
+          <Grid.Row>
+            <Grid.Column>
+              <div className="welcome-text"><p>Hello there</p></div>
+              <Header as="h1" inverted>
+                Manage your site
+              </Header>
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
+      </div>
+  );
+}
+```
