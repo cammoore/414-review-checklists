@@ -1,36 +1,36 @@
-# Javascript and ESLint Checklist
+# Typescript and ESLint Checklist
 
-Best practices for Javascript and ESLint.
+Best practices for Typescript and ESLint.
 
-## Javascript
+## Typescript
 
-### JS-01: Name constructs appropriately.
+### TS-01: Name constructs appropriately.
 
 Do variables/functions/modules conform to our naming standards? (Consistent casing, descriptive names, etc.)
 
-### JS-03: Use the spread operator when appropriate.
+### TS-03: Use the spread operator when appropriate.
 
 Can you use the spread operator?
 
-### JS-04: Use object deconstruction when appropriate.
+### TS-04: Use object deconstruction when appropriate.
 
 Can you use object deconstruction?
 
-### JS-05: Use arrow functions when appropriate.
+### TS-05: Use arrow functions when appropriate.
 
 Can you use arrow functions? Note that arrow functions are normally better, except in Mocha tests.
 
-### JS-06: Avoid lodash or underscore map, filter, etc.
+### TS-06: Avoid lodash or underscore map, filter, etc.
 
 ES6 includes many of the lodash or underscore functions. Use the built-in function rather than the lodash or underscore version when possible.
 
-### JS-07: Avoid console.logs
+### TS-07: Avoid console.logs
 
 Get rid of console.log.
 
-### JS-08: Use JSDoc comments appropriately.
+### TS-08: Use TSDoc comments appropriately.
 
-When a comment starts with '/**', it will be processed by JSDoc. Please ensure those comments are appropriate for inclusion.
+When a comment starts with '/**', it will be processed by TSDoc. Please ensure those comments are appropriate for inclusion.
 
 ## ESLint
 
