@@ -2,9 +2,9 @@
 
 ## Acceptance Test Checklist
 
-### TEST-ACCEPTANCE-01: Each Page has an isDisplayed() acceptance test.
+### TEST-ACCEPTANCE-01: Each Page has an acceptance test.
 
-We use [Playwrite](https://playwright.dev/) to test the user interface. For each page in the user interface, there should be an acceptance test that verifies that the page can be displayed successfully.
+We use [Playwright](https://playwright.dev/) to test the user interface. For each page in the user interface, there should be an acceptance test that verifies that the page can be displayed successfully.
 
 ### TEST-ACCEPTANCE-02: Each form has an acceptance test.
 
